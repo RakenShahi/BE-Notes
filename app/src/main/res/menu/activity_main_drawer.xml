@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@android:drawable/alert_dark_frame"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_Notes"
+            android:icon="@android:drawable/alert_dark_frame"
+
+            android:title="Notes" />
+        <item
+            android:id="@+id/nav_questions"
+            android:icon="@android:drawable/alert_dark_frame"
+
+            android:title="Questions" />
+        <item
+            android:id="@+id/nav_syllabus"
+            android:icon="@android:drawable/alert_dark_frame"
+            android:title="Syllabus" />
+        <item
+            android:id="@+id/nav_field"
+            android:icon="@android:drawable/alert_dark_frame"
+            android:title="Select Field" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@android:drawable/alert_dark_frame"
+                android:title="Login / Register"
+                android:visible="true" />
+            <item
+                android:id="@+id/nav_Admin"
+                android:icon="@android:drawable/alert_dark_frame"
+                android:title="Admin Menu"
+                android:visible="false" />
+        </menu>
+    </item>
+
+</menu>

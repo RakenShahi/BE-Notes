@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp">
+        <Button
+            android:id="@+id/add_note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Notes"
+            tools:text="Add Notes"
+            android:textColor="#e1dee3"
+            android:background="#308de3"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/update_note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Notes"
+            tools:text="Update Notes"
+            android:textColor="#e1dee3"
+            android:background="#308de3"/>
+
+        <Button
+            android:id="@+id/delete_note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Note"
+            tools:text="Delete Note"
+            android:textColor="#e1dee3"
+            android:background="#308de3"/>
+
+        <Button
+            android:id="@+id/manage_users"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Manage Users"
+            tools:text="Manage Users"
+            android:textColor="#e1dee3"
+            android:background="#308de3"/>
+
+        <Button
+            android:id="@+id/Firebase_upload_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload file to Firebase"
+            android:textColor="#e1dee3"
+            android:background="#308de3"/>
+        <Button
+            android:id="@+id/update_syllabus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload Syllabus to Firebase"
+            android:textColor="#e1dee3"
+            android:background="#308de3"/>
+        <Button
+            android:id="@+id/update_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload Question to Firebase"
+            android:textColor="#e1dee3"
+            android:background="#308de3"/>
+
+    </LinearLayout>
+</RelativeLayout>

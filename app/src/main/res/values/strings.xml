@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">BE Notes</string>
+
+    <string-array name="select_semester">
+
+        <item>First Semester</item>
+        <item>Second Semester</item>
+        <item>Third Semester</item>
+        <item>Fourth Semester</item>
+        <item>Fifth Semester</item>
+        <item>Sixth Semester</item>
+        <item>Seventh Semester</item>
+        <item>Eighth Semester</item>
+    </string-array>
+
+    <string-array name="select_faculty">
+
+        <item>Computer Engineering</item>
+        <item>Civil Engineering</item>
+        <item>Electronics Engineering</item>
+        <item>Electrical Engineering</item>
+        <item>Architecture</item>
+        <item>Geomatic</item>
+    </string-array>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_file_upload_to_firebase">FileUploadToFirebase</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

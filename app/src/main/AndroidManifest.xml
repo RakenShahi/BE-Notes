@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.benotes">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FileUpload">
+            <intent-filter>
+                <action android:name="com.example.administrator.benotes.FileUpload" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- <activity android:name=".RecyclerViewActivity"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="com.example.administrator.benotes.RecyclerViewActivity" /> -->
+
+
+        <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+        <activity
+            android:name=".Syllabus_RecyclerViewActivity"
+            android:parentActivityName=".MainActivity">
+            <intent-filter>
+                <action android:name="com.example.administrator.benotes.Syllabus_RecyclerViewActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Questions_RecyclerViewActivity"
+            android:parentActivityName=".MainActivity">
+            <intent-filter>
+                <action android:name="com.example.administrator.benotes.Questions_RecyclerViewActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FirebaseLogin"
+            android:parentActivityName=".MainActivity">
+            <intent-filter>
+                <action android:name="com.example.administrator.benotes.FirebaseLogin" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FirebaseRegistrationActivity"
+            android:parentActivityName=".FirebaseLogin">
+            <intent-filter>
+                <action android:name="com.example.administrator.benotes.FirebaseRegistrationActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PasswordActivity">
+            <intent-filter>
+                <action android:name="com.example.administrator.benotes.PasswordActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SyllabusUpload">
+            <intent-filter>
+                <action android:name="com.example.administrator.benotes.SyllabusUpload" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".QuestionUpload">
+            <intent-filter>
+                <action android:name="com.example.administrator.benotes.QuestionUpload" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SearchActivity"
+            android:parentActivityName=".RecyclerViewActivity">
+            <intent-filter>
+                <action android:name="com.example.administrator.benotes.SearchActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RecyclerViewActivity"
+            android:parentActivityName=".MainActivity">
+            <intent-filter>
+                <action android:name="com.example.administrator.benotes.RecyclerViewActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Recommendation">
+            <intent-filter>
+                <action android:name="com.example.administrator.benotes.Recommendation" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Field_on_net" android:parentActivityName=".MainActivity">
+            <intent-filter>
+                <action android:name="com.example.administrator.benotes.Field_on_net" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+
+        </activity>
+    </application>
+
+</manifest>
