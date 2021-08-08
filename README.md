@@ -4,6 +4,9 @@ Android application which provides PDF notes to engineering students of Purbanch
 # Tools used
 Android Studio, Java, SQLite, Firebase(NoSQL)
 
+# Download APK
+https://github.com/RakenShahi/BE-Notes/releases/download/1/BENotes.apk
+
 # User Interface
 
 ## Login Page
