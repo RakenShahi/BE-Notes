@@ -1,5 +1,5 @@
 # BE-Notes
-Android application which provides PDF notes to engineering students of Purbanchal University and Tribhuwan University
+Android application which provides PDF notes to engineering students of Purbanchal University and Tribhuwan University. Built as a college project during 7th semester of Bachelor's degree.
 
 # Tools used
 Android Studio, Java, SQLite, Firebase(NoSQL)
